@@ -1,0 +1,27 @@
+/* src/styles/LandingPage.css */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.landing-page {
+  position: relative; /* Position relative to ensure proper stacking */
+  height: 100vh; /* Full viewport height */
+  width: 100%; /* Full width */
+  background-image: url('/public/HomeBackground.jpg'); /* Ensure this image is in the public folder */
+  background-size: cover; /* Cover the entire container */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  filter: brightness(70%); /* Optional: Match the carousel filter effect */
+  z-index: 1; /* Ensure it's on the right stacking order */
+}
+  
+  h1 {
+    color: white;
+  }
+  
+  p {
+    color: white;
+  }
+  
